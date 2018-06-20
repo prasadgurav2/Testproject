@@ -27,8 +27,6 @@ cd Testproject/
 
 $ git add Test.txt
 
-THE END
-
 $ git commit -m"Test added for testing git"Test.txt
 
 $ git push -u origin master  // push use to upload file to repository on github
