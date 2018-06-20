@@ -1,1 +1,36 @@
-THis is my bedroom.
+Command to Start Git hub.
+
+**Open Git BASH from Computer
+** CMD will open
+**Type below command to acess file location from dextop
+=> $ cd
+=> $ cd/E
+=>   ls
+=> $ cd Projects/
+///////////////////////
+
+TO create user name and email to repository
+
+$ git config --global user.name"Prasad"
+$ git config --global user.email prasad.gurav2@gmail.com
+
+///////////////////////////////
+Link Repository to file of computer : 
+just copy repository path from Github and then paste in cmd:
+
+$ git clone https://github.com/prasadgurav2/Testproject.git
+
+/////////////////////////////////
+I added new File text file as "Test.txt" and try to upload at git hub using below command: 
+
+cd Testproject/
+
+$ git add Test.txt
+
+$ git commit -m"Test added for testing git"Test.txt
+
+$ git push -u origin master  // push use to upload file to repository on github
+
+For first time ask the admin user name and Pwd which i s your repository username and Password.
+///////////////////////////////////////
+
